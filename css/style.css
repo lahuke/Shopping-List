@@ -4,9 +4,20 @@ body{
 	line-height: 1em;
 
 }
-h1, .copyright, .shopping-list{
+h1, .copyright, .shopping-list, .button{
 	font-family: 'Saira', sans-serif;
 }
+.enter {
+	border: 2px solid lightgray;
+}
+.button {
+	padding: .5em 1em;
+	background-color: #3A8959;
+	border-radius: 12px;
+	font-size: 1em;
+	border: none;
+}
+
 .header{
 	background-image: url(http://i.imgur.com/3VcBnJW.jpg);
 	background-repeat: no-repeat;
@@ -14,19 +25,43 @@ h1, .copyright, .shopping-list{
 	height: auto;
     width: 100%;
 	background-position: center;
-	padding: 6em 0;
+	padding: 4em 0;
+	border: 1px solid black;
 }
 h1 {
 	color: white;
 	font-size: 3em;
 	line-height: 1em;
 }
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin-top: 2em;
+    margin-left: 49px;
+	box-sizing: border-box
+}
 
 h1, h2 {
 	text-transform: uppercase;
 }
-font-family: 'Shadows Into Light', cursive;
 
+h2{
+	font-size: 1.5em;
+	margin-top: 2em;
+}
+ul {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1em; 
+	list-style: none;
+	margin-right: 2em;
+	display: block;
+}
+.purchased {
+	text-decoration: line-through;
+	color: gray;
+}
+
+hr {max-width: 80%}
 @media only screen and (max-width: 700px)
 { 
 .header {
