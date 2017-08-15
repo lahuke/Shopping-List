@@ -1,0 +1,38 @@
+body{
+	color: black;
+	text-align: center;
+	line-height: 1em;
+
+}
+h1, .copyright, .shopping-list{
+	font-family: 'Saira', sans-serif;
+}
+.header{
+	background-image: url(http://i.imgur.com/3VcBnJW.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+    width: 100%;
+	background-position: center;
+	padding: 6em 0;
+}
+h1 {
+	color: white;
+	font-size: 3em;
+	line-height: 1em;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+font-family: 'Shadows Into Light', cursive;
+
+@media only screen and (max-width: 700px)
+{ 
+.header {
+	padding: 2em 0;
+	max-height: 150px;
+}
+h1 {
+	font-size: 2em;	
+}
