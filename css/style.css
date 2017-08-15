@@ -71,3 +71,6 @@ hr {max-width: 80%}
 h1 {
 	font-size: 2em;	
 }
+input[type=text] {
+    width: 60%;
+}
