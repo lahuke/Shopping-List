@@ -12,28 +12,28 @@
 	<div class ="header">
 	<h1 class = "header-copy">My Shopping List</h1>
 	</div>
-	<div class="input">
-		<input class="enter" type="text" name="item">
+	<form id="input-box">
+		<input class="text-field" type="text" placeholder="Enter your item here and click 'ADD'">
 		<input class="button" type="submit" value="ADD">
-	</div>
+	</form>
 	<div class="shopping-list">
-		<h2>List</h2>
-			<ul class ="needed">
-				<li>apples</li>
-				<li>bananas</li>
-				<li>pizza rolls</li>
-				<li>coconut bliss</li>
-			</ul>
-		<h2>Purchased</h2>
-			<ul class="purchased">
-				<li>sourdough</li>
-				<li>lettuce</li>
-			</ul>
+		<h2>Shopping Bag</h2>
+			<ul>
+				<li class="currentitem">apples</li>
+				<li class="currentitem">bananas</li>
+				<li class="currentitem">pizza rolls</li>
+				<li class="currentitem">coconut bliss</li>
+			<ul>
+				<li class ="purchased">sourdough</li>
+				<li class="purchased">lettuce</li>
+			</ul></ul>
 	</div>
 	<br>
 	<hr></hr>
 	<div class=copyright>
 		<h5>&copy RGT Designs, LLC.</h5>
 	</div>
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
