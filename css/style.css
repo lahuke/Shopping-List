@@ -4,13 +4,13 @@ body{
 	line-height: 1em;
 
 }
-h1, .copyright, .shopping-list, .button{
+h1, .copyright, .all-items, .button{
 	font-family: 'Saira', sans-serif;
 }
 .enter {
 	border: 2px solid lightgray;
 }
-.button {
+button {
 	padding: .5em 1em;
 	background-color: #3A8959;
 	border-radius: 12px;
@@ -52,13 +52,15 @@ h2{
 ul {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 1em; 
-	list-style: none;
 	margin-right: 2em;
 	display: block;
 }
-.purchased {
+li {
+	list-style: none;
+}
+li.linethrough {
 	text-decoration: line-through;
-	color: gray;
+	color: lightgray;
 }
 
 hr {max-width: 80%}
