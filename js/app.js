@@ -21,6 +21,11 @@ assignlisteners();
 function assignlisteners() {
 	$('ul').on('click', '.current-item', function(event) {
 		$(this).toggleClass('linethrough');
-		console.log('item checked');
+	});
+}
+deleteItem();
+function deleteItem() {
+	$('ul').on('dblclick', '.current-item', function(event) {
+		$(this).remove();
 	});
 }
