@@ -10,6 +10,15 @@ h1, .copyright, .all-items, .button{
 .enter {
 	border: 2px solid lightgray;
 }
+p {
+	font-size: 1em;
+	color: gray;
+	line-height: 1em;	
+	font-style: italic;
+	margin-top: -13px;
+	font-weight: lighter;
+}
+
 button {
 	padding: .5em 1em;
 	background-color: #3A8959;
@@ -51,9 +60,10 @@ h2{
 }
 ul {
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 1em; 
+	font-size: 1.3em; 
 	margin-right: 2em;
 	display: block;
+	line-height: 1.2em;
 }
 li {
 	list-style: none;
